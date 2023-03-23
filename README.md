@@ -1,35 +1,40 @@
-# space-gray-ui
+# **Space Gray UI**
+Минималистичная библиотека компонентов от команды разработки itis.merch.
 
-This template should help get you started developing with Vue 3 in Vite.
+## **Компоненты**
+- [ ] Header
+- [ ] Footer
+- [ ] Sidebar
+- [ ] Button
+- [ ] Carousel 
+- [ ] Card
 
-## Recommended IDE Setup
+## **Пререквезиты**
+* Node.js версии не ниже 19.7.0
+* npm версии не ниже 9.5.0
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+### **Настройка проекта**
+Установить все необходимые зависимости.
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Запустить prettier для форматирования кода.
+```sh
+npm run format
+```
 
+Запустить проект в режиме разработки и hot-reload.
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
+Запустить линтер.
 ```sh
 npm run lint
+```
+
+Скомпилировать проект.
+```sh
+npm run build
 ```
