@@ -1,5 +1,5 @@
 <script setup>
-import SGHeader from './components/SGHeader.vue';
+import SGHeader from './components/SGHeader.vue'
 </script>
 
 <template>
