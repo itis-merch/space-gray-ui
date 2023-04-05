@@ -73,16 +73,16 @@ body {
 }
 
 @font-face {
-  font-family: "VkSansDisplay-Bold";
-  src: url("./fonts/VKSansDisplay-Bold.ttf") format("truetype");
+  font-family: 'VkSansDisplay-Bold';
+  src: url('./fonts/VKSansDisplay-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "SFMono-Medium";
-  src: url("./fonts/SFMono-Medium.otf") format("truetype");
+  font-family: 'SFMono-Medium';
+  src: url('./fonts/SFMono-Medium.otf') format('truetype');
 }
 
 @font-face {
-  font-family: "SFMono-Bold";
-  src: url("./fonts/SFMono-Bold.otf") format("truetype");
+  font-family: 'SFMono-Bold';
+  src: url('./fonts/SFMono-Bold.otf') format('truetype');
 }
