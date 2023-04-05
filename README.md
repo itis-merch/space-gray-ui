@@ -38,3 +38,6 @@ npm run lint
 ```sh
 npm run build
 ```
+
+## **Участие в разработке**
+Подробнее информацию по участии в разработке можно посмореть в [CONTRIBUTING.md](CONTRIBUTING.md)
