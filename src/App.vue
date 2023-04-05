@@ -1,13 +1,11 @@
-<script setup></script>
+<script setup>
+import SGButton from './components/SGButton.vue'
+</script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
-  </header>
+  <div>
+    <SGButton>Add To Cart</SGButton>
+  </div>
 </template>
 
 <style scoped></style>

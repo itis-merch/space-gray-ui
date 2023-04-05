@@ -5,6 +5,11 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    'process.env': {
+      INITIAL_COLOR_MODE: 'light'
+    }
+  },
   plugins: [vue()],
   resolve: {
     alias: {
