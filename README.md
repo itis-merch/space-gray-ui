@@ -5,7 +5,7 @@
 - [ ] Header
 - [ ] Footer
 - [ ] Sidebar
-- [ ] Button
+- [x] Button
 - [ ] Carousel 
 - [ ] Card
 
