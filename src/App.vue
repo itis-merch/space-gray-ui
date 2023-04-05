@@ -1,10 +1,10 @@
 <script setup>
-import SGButton from './components/SGButton.vue'
+import SGHeader from './components/SGHeader.vue';
 </script>
 
 <template>
   <div>
-    <SGButton>Add To Cart</SGButton>
+    <SGHeader></SGHeader>
   </div>
 </template>
 
