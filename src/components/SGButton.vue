@@ -19,6 +19,6 @@
 
 <style scoped>
 button {
-  font-family: "VkSansDisplay";
+  font-family: "VkSansDisplay-Bold";
 }
 </style>
