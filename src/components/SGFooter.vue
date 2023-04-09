@@ -1,0 +1,45 @@
+<script setup>
+
+</script>
+
+<template>
+	<footer class="bg-white">
+		<div class="mx-auto w-full max-w-screen-2xl font-extralight text-gray-600 sg-nav-link text-base">
+			<div class="grid grid-cols-2 gap-20 px-4 py-6 lg:py-8 md:grid-cols-4">
+				<div>
+					<h3 class="mb-3 text-lg font-bold text-stone-950">More</h3>
+					<ul class="">
+						<li class="mb-2">
+							<a href="#" class="hover:underline">About us</a>
+						</li>
+						<li class="mb-2">
+							<a href="#" class="hover:underline">Our team</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="mb-3 text-lg font-bold text-stone-950">Contacts</h3>
+					<ul class="">
+						<li class="mb-2 font-extralight">
+							<a href="#" class="hover:underline">Telegram</a>
+						</li>
+						<li class="mb-2">
+							<a href="#" class="hover:">Vk</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="mb-3 text-lg font-bold text-stone-950">Contribute</h3>
+					<ul class="">
+						<li class="mb-2">
+							<a href="#" class="hover:underline">Join us</a>
+						</li>
+						<li class="mb-2">
+							<a href="#" class="hover:underline">API docs</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</template>
