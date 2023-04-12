@@ -1,10 +1,10 @@
 <script setup>
-import SGCart from './components/SGCart.vue';
+import SGCard from './components/SGCard.vue';
 </script>
 
 <template>
   <div>
-    <SGCart></SGCart>
+    <SGCard></SGCard>
   </div>
 </template>
 
