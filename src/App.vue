@@ -1,11 +1,28 @@
-<script setup>
-import SGButton from './components/SGButton.vue'
-</script>
-
 <template>
-  <div>
-    <SGButton>Add To Cart</SGButton>
-  </div>
+    <carousel :slides="slides">
+
+    </carousel>
 </template>
 
-<style scoped></style>
+<script>
+import Carousel from "@/components/Carousel.vue"
+
+export default {
+    components: {
+        Carousel,
+    },
+    data () {
+        return {
+            slides: [
+                "/img/1.jpg",
+                "/img/2.jpg",
+                "/img/3.jpg",
+            ]
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+</style>
