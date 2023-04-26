@@ -1,9 +1,6 @@
-<script setup>
-import SGFooter from './components/SGFooter.vue';
-</script>
-
 <template>
   <div>
+    <SGCard></SGCard>
     <SGFooter></SGFooter>
   </div>
 </template>
