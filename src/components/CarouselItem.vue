@@ -1,7 +1,10 @@
 <template>
-    <transition name="slide-in">
-        <div class="carousel-item" v-show="currentSlide === index">
-            <img :src="slide" alt="Photo">
+    <transition :name="transitionEffect">
+        <div
+            class="carousel-item"
+            v-show="currentSlide === index"
+        >
+            <img :src="slide" alt="Photo"/>
         </div>
     </transition>
 </template>
@@ -12,6 +15,12 @@ export default {
         slide: String,
         currentSlide: Number,
         index: Number,
+        direction: String,
+    },
+    computed: {
+        transitionEffect() {
+            return this.direction === "right" ? "slide-out" : "slide-in";
+        },
     }
 }
 </script>
@@ -24,10 +33,12 @@ export default {
     right: 0;
     bottom: 0;
 }
+
 img {
     width: 500px;
     height: 270px;
 }
+
 .slide-in-enter-active,
 .slide-in-leave-active,
 .slide-out-enter-active,

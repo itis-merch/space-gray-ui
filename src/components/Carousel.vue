@@ -2,16 +2,17 @@
     <div class="carousel">
         <div class="carousel-inner">
             <carousel-indicators
-                :total="slides.length"
-                :current-index="currentSlide"
-                @switch="switchSlide($event)"
+                    :total="slides.length"
+                    :current-index="currentSlide"
+                    @switch="switchSlide($event)"
             ></carousel-indicators>
             <carousel-item
-                v-for="(slide, index) in slides"
-                :slide="slide"
-                :key="`item-${index}`"
-                :current-slide="currentSlide"
-                :index="index"
+                    v-for="(slide, index) in slides"
+                    :slide="slide"
+                    :key="`item-${index}`"
+                    :current-slide="currentSlide"
+                    :index="index"
+                    :direction="direction"
             >
             </carousel-item>
         </div>
@@ -37,6 +38,7 @@ export default {
             interval: 7000,
             currentSlide: 0,
             slideInterval: null,
+            direction: "right",
         }
     },
     methods: {
@@ -77,7 +79,7 @@ export default {
             const step = index - this.currentSlide;
             if (step > 0) {
                 this.next(step);
-            } else {
+            } else if (step < 0) {
                 this.prev(step);
             }
         },
