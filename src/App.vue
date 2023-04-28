@@ -1,7 +1,12 @@
+<script setup>
+import SGSidebar from './components/SGSidebar.vue';
+import SGHeader from './components/SGHeader.vue';
+</script>
+
 <template>
   <div>
-    <SGCard></SGCard>
-    <SGFooter></SGFooter>
+    <SGHeader/>
+    <SGSidebar/>
   </div>
 </template>
 
