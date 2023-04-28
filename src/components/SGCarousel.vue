@@ -1,12 +1,12 @@
 <template>
 	<div class="carousel">
 		<div class="carousel-inner">
-			<carousel-indicators
+			<SGCarouselIndicators
 					:total="slides.length"
 					:current-index="currentSlide"
 					@switch="switchSlide($event)"
-			></carousel-indicators>
-			<carousel-item
+			></SGCarouselIndicators>
+			<SGCarouselItem
 					v-for="(slide, index) in slides"
 					:slide="slide"
 					:key="`item-${index}`"
@@ -14,18 +14,18 @@
 					:index="index"
 					:direction="direction"
 			>
-			</carousel-item>
+			</SGCarouselItem>
 		</div>
 	</div>
 </template>
 
 <script>
-import CarouselItem from "@/components/CarouselItem.vue";
-import CarouselIndicators from "@/components/CarouselIndicators.vue";
+import SGCarouselItem from "@/components/SGCarouselItem.vue";
+import SGCarouselIndicators from "@/components/SGCarouselIndicators.vue";
 export default {
 	components: {
-		CarouselItem,
-		CarouselIndicators
+		SGCarouselItem,
+		SGCarouselIndicators
 	},
 	props: {
 		slides: {
