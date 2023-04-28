@@ -8,12 +8,10 @@
   margin: 0 auto;
   font-weight: normal;
 }
+.sg-logo-text {
+  font-family: 'VKSansDisplay-Bold';
+}
 
-
- 
- 
- 
- 
- 
- 
- 
+.sg-nav-link {
+  font-family: 'SFMono-Medium';
+}
